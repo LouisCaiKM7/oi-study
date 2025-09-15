@@ -41,13 +41,6 @@ public class SelectionSorter{
                 input[min_index] = holder;
                 
             }
-            System.out.println("inLength" + inLength);
-            System.out.println("min" + min);
-            System.out.println("min_i" + min_index);
-            System.out.println("t" + temp);
-            System.out.println("t_i"+temp_index);
-            System.out.println("holder"+holder);
-            System.out.println("indexed"+indexed);
             indexed++;
         }
         return result;
