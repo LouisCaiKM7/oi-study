@@ -11,7 +11,6 @@ public class SelectionSorter{
 
     public int[] sorting(int[] input){
         int[] result = input;
-        int inLength = input.length;
         int min = input[0];
         int min_index = 0;
         int temp = 0;
